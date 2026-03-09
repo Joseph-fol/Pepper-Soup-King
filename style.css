@@ -100,11 +100,12 @@
 .card-body button {
     margin-top: 20px;
     background-color: rgb(233, 196, 106);
-    color: white;
+    color: #220a06;
     border: none;
     text-align: center;
     border-radius: 25px;
-    padding: 20px 120px;
+    padding: 20px 10px;
+    width: 100%;
     font-size: 20px;
     display: block;
     margin-left: auto;
@@ -113,8 +114,9 @@
 
 .card-body button:hover {
     background-color: antiquewhite;
-    color: rgb(34, 10, 6);
+    color: #220a06;
     transition: 0.5s;
+    scale: 1.1;
 }
 
 .our-story {
