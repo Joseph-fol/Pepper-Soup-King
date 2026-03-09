@@ -47,7 +47,6 @@
     align-items: center;
     text-align: center;
     padding: 30px;
-
 }
 
 
@@ -89,7 +88,14 @@
     background-color: rgb(34, 10, 6);
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
+    
 }
+
+.card-body:hover{
+    transition: 0.5s;
+    scale: 1.03;
+}
+
 
 .card-text {
     color: white;
